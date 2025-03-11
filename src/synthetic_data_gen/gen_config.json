@@ -1,0 +1,21 @@
+{
+    "rows": 50,
+    "output_file": "synthetic_data.csv",
+    "columns": [
+      {
+        "name": "name",
+        "type": "string",
+        "range": ["Diana", "Evelynn", "Katarina", "Leona"]
+      },
+      {
+        "name": "age",
+        "type": "int",
+        "range": [18, 65]
+      },
+      {
+        "name": "active",
+        "type": "boolean"
+      }
+    ]
+}
+  

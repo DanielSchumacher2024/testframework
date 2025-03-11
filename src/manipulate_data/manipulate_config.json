@@ -1,0 +1,19 @@
+{
+  "input_file": "Iris.csv",
+  "output_file": "manipulated_data.csv",
+  "protocol_file": "protocol_file.csv",
+  "random_seed": 1004,
+  "errors": [
+    {
+      "error_type": "missing_values",
+      "enabled": true,
+      "number": 5
+    },
+    {
+      "error_type": "duplicates",
+      "enabled": true,
+      "number": 5
+    }
+  ]
+}
+
